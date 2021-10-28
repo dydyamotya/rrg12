@@ -2,7 +2,7 @@ import serial
 import struct
 import numbers
 
-from enums import *
+from .enums import *
 
 
 class CheckSumException(Exception):

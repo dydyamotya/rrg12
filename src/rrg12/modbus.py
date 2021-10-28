@@ -3,7 +3,7 @@ import struct
 import serial
 from pymodbus.exceptions import ModbusIOException
 
-from enums import *
+from .enums import *
 
 
 class RRG12_modbus:
